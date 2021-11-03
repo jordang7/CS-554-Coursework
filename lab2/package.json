@@ -1,0 +1,31 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "lab2 for cs544",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Jordan Greenberg 10423185",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.5.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-imagemin": "^7.1.0",
+    "jquery": "^3.5.1",
+    "tether": "^1.4.7"
+  },
+  "dependencies": {
+    "@khanacademy/tota11y": "^0.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "popper.js": "^1.16.1"
+  }
+}

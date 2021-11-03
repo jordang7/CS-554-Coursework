@@ -1,0 +1,25 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jordan Greenberg 10423185",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.3.15",
+    "apollo-server": "^2.23.0",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "graphql": "^15.5.0",
+    "react": "^17.0.2",
+    "redis": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

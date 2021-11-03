@@ -1,0 +1,98 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+
+body,
+html {
+  background: $body-background;
+  color: darken($brand-primary, 20%);
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: $primary-font-size;
+  background-clip: border-box;
+}
+.modal-title{
+	color:  #8b0000;
+}
+.modal-body p{
+	color: #8b0000;
+}
+.btn-primary {
+  background-color: $button-background;
+  color: $button-text;
+  border-color: $body-background;
+}
+h1{
+	text-align: center;
+}
+.card {
+	padding: 1px;
+	margin-top:2%;
+}
+img {
+    float: left;
+    width:  100px;
+    height: 125px;
+    object-fit: cover;
+}
+.card-body {
+	color: $text-colour;
+	background-color: $card-colour;
+}
+.wrap{
+	margin-left: 200px;
+  	padding: 1px 16px;
+	  height: 1000px;
+	  display:flex;flex-direction:row;
+}
+
+//from https://www.w3schools.com/howto/howto_js_sidenav.asp
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+
+  .sidenav a {
+	padding: 6px 6px 6px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+  }
+
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+
+
+  @media screen and (max-width:768px){
+	.sidenav{
+		overflow: hidden;
+		width: 100%;
+		position: fixed;
+		top:0;
+		height:125px;
+	}
+	.sidenav a {
+		float:left;
+		display: block;
+		font-size: 15px;
+	}
+	.wrap{
+		margin-left:0px;
+		margin-top: 125px;
+	}
+
+  }
